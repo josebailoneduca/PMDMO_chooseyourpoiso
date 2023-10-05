@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pick your poison</string>
+    <string name="nombreOpcion1">Cicuta</string>
+    <string name="etiqueta1">Mató a Socrates</string>
+    <string name="nombreOpcion2">Arsénico</string>
+    <string name="etiqueta2">Mató a Nerón</string>
+    <string name="nombreOpcion3">Tetrodotoxina</string>
+    <string name="etiqueta3">Mató a Cleopatra</string>
+    <string name="nombreOpcion4">Estricnina</string>
+    <string name="etiqueta4">Mató a Alejandro Magno</string>
+
+</resources>
