@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_secondary"
+    android:background="#80ECE2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -26,22 +26,29 @@
         android:padding="10dp">
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/switchImagenes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="20dp"
-            android:text="Imágenes activadas" />
+            android:checked="true"
+            android:text="Activar Imagen"
+            android:textAlignment="textEnd"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:thumbTint="@color/light_primary"
+            android:trackTint="@color/light_primary" />
 
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginTop="5dp"
             android:background="#000000" />
 
         <RadioButton
             android:id="@+id/radio1"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/light_primary"
             android:checked="false"
             android:text="@string/nombreOpcion1" />
 
@@ -74,13 +81,12 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:text="aslñdkfjasdlñ" />
+        tools:text="Texto de prueba" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imagen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:layout_height="match_parent"
         tools:srcCompat="@drawable/ic_launcher_background" />
 
 
