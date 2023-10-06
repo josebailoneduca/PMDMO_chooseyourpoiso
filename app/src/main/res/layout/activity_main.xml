@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80ECE2"
+    android:background="#BFF3E1"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,11 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/design_default_color_secondary_variant"
+        android:fontFamily="@font/greek_freak_family"
         android:padding="10dp"
         android:text="Pick your poison"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:textSize="34sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -30,7 +31,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Activar Imagen"
+            android:text="@string/showhideimage"
+            android:fontFamily="@font/greek_freak_family"
+            android:textSize="24sp"
             android:textAlignment="textEnd"
             android:textColor="@color/design_default_color_on_secondary"
             android:thumbTint="@color/light_primary"
@@ -50,28 +53,36 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/light_primary"
             android:checked="false"
-            android:text="@string/nombreOpcion1" />
+            android:fontFamily="@font/greek_freak_family"
+            android:text="@string/nombreOpcion1"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/nombreOpcion2" />
+            android:fontFamily="@font/greek_freak_family"
+            android:text="@string/nombreOpcion2"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radio3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/nombreOpcion3" />
+            android:fontFamily="@font/greek_freak_family"
+            android:text="@string/nombreOpcion3"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radio4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="@string/nombreOpcion4" />
+            android:fontFamily="@font/greek_freak_family"
+            android:text="@string/nombreOpcion4"
+            android:textSize="24sp" />
 
     </RadioGroup>
 
